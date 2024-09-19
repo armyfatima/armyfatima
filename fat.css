@@ -1,0 +1,322 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121111;
+    color: #faf3f3;
+    transition: opacity 0.5s ease-in-out;
+}
+
+h1, h2, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navegação */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #0a4816;
+   
+}
+
+.nav .logo h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.nav .link ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav .link ul li {
+    display: inline;
+}
+
+.nav .link ul li a {
+    text-decoration: none;
+    color: rgba(245, 246, 245, 0.911);
+    font-weight: 600;
+}
+
+.nav .link ul li a:hover {
+    color: #05401b;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0c0c0c;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero .main-detil p {
+    font-size: 18px;
+    color: #f4f4f8;
+}
+
+.hero .main-detil h1 {
+    font-size: 48px;
+    color: #fefefe;
+}
+
+.hero .main-detil h4 {
+    font-size: 22px;
+    color: #062a10;
+    margin-bottom: 20px;
+}
+
+.hero .btn button {
+    background-color: #043b10;
+    color: rgb(18, 17, 17);
+    border: none;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.hero .btn button:hover {
+    background-color: #0e0d0e;
+}
+
+.hero .social i {
+    font-size: 24px;
+    color: #0c0b0b;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.hero .social i:hover {
+    color: #0b0a0b;
+}
+
+/* Habilidades */
+.habilidades {
+    padding: 50px 20px;
+    background-color: #043505;
+}
+
+.habilidades h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #055717;
+}
+
+.habilidades span {
+    color: #0f0e0f;
+}
+
+.skill-boxes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.skill-boxes .skill {
+    background-color: #0e0a0a;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.skill-boxes .skill h1 {
+    font-size: 24px;
+    color: #082e08;
+}
+
+.skill-boxes .skill p {
+    color: #f8f1f1;
+}
+
+/* Experiência */
+.experiencia {
+    background-color: #0b0103;
+    padding: 50px 20px;
+}
+
+.experiencia h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #054b14;
+}
+
+.experiencia-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.experiencia-item {
+    background-color: #0a0807;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#home {
+    position: relative;
+    padding: 20px;
+}
+
+.side-img {
+    float: left; 
+    margin-right: 20px; 
+    width: 100px; /
+    border-radius: 20px;
+}
+
+.home-content {
+    overflow: hidden; 
+}
+}
+#about {
+    position: relative; 
+    padding: 50px;
+}
+
+.about-img {
+    position: absolute;
+   left: 0%;          
+    right: 100;        
+    width: 50px;
+    height: 500px;0px ;
+}
+
+.experiencia-content h2 {
+    font-size: 22px;
+    color: #064a17;
+}
+
+.experiencia-content p {
+    font-size: 16px;
+    color: #f7f2f2;
+}
+
+/* Projetos */
+#Projectos {
+    padding: 50px 20px;
+    background-color: #0b0b0a;
+    text-align: center;
+}
+
+#Projectos h1 {
+    font-size: 36px;
+    color: #123a05;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#Serviços {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+#Serviços h2 {
+    font-size: 24px;
+    color: #100e0f;
+}
+
+#Serviços iframe {
+    width: 80%;
+    max-width: 600px;
+    height: 350px;
+    border: 3px solid #0c3105;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Serviços iframe:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    border-color: #080004;
+}
+
+/* Contacto */
+.contact-form {
+    background-color: #070707;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-form h1 {
+    font-size: 36px;
+    color: #fdfbfb;
+    margin-bottom: 30px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form form label {
+    font-size: 18px;
+    color: #faf5f5;
+    margin-top: 10px;
+}
+
+.contact-form form input, 
+.contact-form form textarea {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0b0b0b;
+    margin: 10px 0;
+}
+
+.contact-form form button {
+    background-color: #14ff47;
+    color: rgb(10, 10, 10);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form form button:hover {
+    background-color: #0f0e0f;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .skill-boxes {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .experiencia-item {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    #Serviços iframe {
+        width: 100%;
+    }
+}

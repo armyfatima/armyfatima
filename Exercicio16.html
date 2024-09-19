@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Responsiva</title>
+    <style>
+        /* Estilos básicos para centralizar a página */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilo para o container do grid */
+        .grid-container {
+            display: grid;
+            gap: 10px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        /* Configuração do grid para diferentes tamanhos de tela */
+        .grid-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Grid para telas grandes */
+        @media (min-width: 1024px) {
+            .grid-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* Grid para telas médias */
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Grid para telas pequenas */
+        @media (max-width: 767px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <img src="c:\Users\TANIABDUL\OneDrive\Ambiente de Trabalho\amitaf\parte 2\533352.jpg" alt="Imagem 1">
+        <img src="c:\Users\TANIABDUL\OneDrive\Ambiente de Trabalho\amitaf\parte 2\Bts-Suga-Yoongi-Dynamite-Tiny-Tan-Phone-Holder.jpg" alt="Imagem 2">
+        <img src="c:\Users\TANIABDUL\OneDrive\Imagens\Saved Pictures\untitled.png" alt="Imagem 3">
+        <img src="c:\Users\TANIABDUL\OneDrive\Ambiente de Trabalho\amitaf\parte 2\a-game-character-enchantress-wearing-red-clothes-and-horns-created-by-Fotor-ai-image-generator - Cópia.jpg" alt="Imagem 4">
+        <img src="c:\Users\TANIABDUL\OneDrive\Ambiente de Trabalho\amitaf\parte 2\Ahri_OriginalLoading.jpg" alt="Imagem 5">
+        <img src="c:\Users\TANIABDUL\OneDrive\Imagens\Sarmy_files\maxresdefault.jpg" alt="Imagem 6">
+        <img src="c:\Users\TANIABDUL\OneDrive\Imagens\Sarmy_files\buru-buru-1920x1080.jpg" alt="Imagem 7">
+        <img src="c:\Users\TANIABDUL\OneDrive\Imagens\Sarmy_files\dbmNS45xQvD1diApY1T2HExvOo8.jpg" alt="Imagem 8">
+        <img src="c:\Users\TANIABDUL\OneDrive\Imagens\fenix -_files\fire-phoenix-bird-logo-captivating-fire-phoenix-bird-logo-symbolizing-rebirth-strength-transformation-logo-features-281426993.jpg" alt="Imagem 9">
+    </div>
+</body>
+</html>
